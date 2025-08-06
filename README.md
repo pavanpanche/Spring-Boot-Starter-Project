@@ -15,7 +15,7 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 
 - *Note* : Just Changes Your own Api Key And Db Credential and token session time.
 
-# 🧱 Technologies Used
+## 🧱 Technologies Used
 - Spring Boot
 - Spring Security
 - JWT
@@ -25,9 +25,7 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 - Lombok
 - Environment Configs
 
-# 💡 Ideal For
-Starting new backend projects quickly
-
-Teams who want a common base project
-
-Avoiding repetitive auth and config setup
+## 💡 Ideal For
+- Starting new backend projects quickly
+- Teams who want a common base project
+- Avoiding repetitive auth and config setup
