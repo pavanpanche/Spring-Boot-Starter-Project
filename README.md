@@ -6,13 +6,35 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 
  ## What's Already Configured?
 - ✅ JWT Authentication
-
 - ✅ Spring Security
-
+- ✅ Role Based Access Controlled (User, Admin)
 - ✅ Spring Data JPA
-
 - ✅ Environment-based configuration (application-dev.yml, application-prod.yml)
-
-- ✅ Database setup (H2/MySQL/PostgreSQL-ready)
-
+- ✅ Database setup (H2/MySQL/PostgreSQL-ready) 
 - ✅ Secret keys and token configuration (easily customizable)
+
+-- Note : Just Changes Your own Api Key And Db Credential and tokenn session time.
+
+# 🧱 Technologies Used
+Spring Boot
+
+Spring Security
+
+JWT
+
+Spring Data JPA
+
+Maven / Gradle
+
+H2 / MySQL / PostgreSQL
+
+Lombok
+
+Environment Configs
+
+# 💡 Ideal For
+Starting new backend projects quickly
+
+Teams who want a common base project
+
+Avoiding repetitive auth and config setup
