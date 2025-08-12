@@ -19,8 +19,8 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 - Spring Security
 - JWT
 - Spring Data JPA
-- Maven / Gradle
-- H2 / MySQL / PostgreSQL
+- Maven 
+- MySQL 
 - Lombok
 - Environment Configs
 
