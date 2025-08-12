@@ -23,6 +23,7 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 - MySQL 
 - Lombok
 - Environment Configs
+- swagger for API documentation
 
 ## 💡 Ideal For
 - Starting new backend projects quickly
