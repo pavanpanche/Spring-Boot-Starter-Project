@@ -2,8 +2,8 @@
 
 A Spring Boot starter boilerplate that includes **JWT Authentication**, **Spring Security**, **Role-Based Access Control**, **Spring Data JPA**, and a fully configured **environment-based setup** — ready to use out of the box.
 
-- ✅ This repository is created for my personal practice and to save time on authentication setup and configuration. It is open for anyone to explore and learn from.  
-- ✅ To use it, simply clone the repository, connect it to your own Git repository, and start adding new features.
+- This repository is created for my personal practice and to save time on authentication setup and configuration. It is open for anyone to explore and learn from.  
+- To use it, simply clone the repository, connect it to your own Git repository, and start adding new features.
 
 📂 **Public repository** — [Spring Boot Starter Project](https://github.com/pavanpanche/Spring-Boot-Starter-Project)
 
