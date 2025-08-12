@@ -29,3 +29,72 @@ This is a Spring Boot starter boilerplate that comes with JWT Authentication, Sp
 - Starting new backend projects quickly
 - Teams who want a common base project
 - Avoiding repetitive auth and config setup
+
+
+## 🔐 Authentication
+#### User Registration:
+#### Users can create an account using:
+
+- Email
+
+- Username
+
+- Password
+
+##### Example Request:
+```json
+  
+POST /api/auth/register
+{
+  "email": "user@example.com",
+  "username": "pavank",
+  "password": "StrongP@ssw0rd"
+}
+
+```
+
+##### Example Response 
+```
+"Registraion Successfully"
+```
+
+---
+
+#### User Login:
+- Users can log in using either:
+
+- Username + Password, or
+
+- Email + Password
+
+##### Example Requests:
+```json
+
+POST /api/auth/login
+// Using Email
+{
+  "identifier": "user@example.com",
+  "password": "StrongP@ssw0rd"
+}
+
+// Using Username
+{
+  "identifier": "pavank",
+  "password": "StrongP@ssw0rd"
+}
+
+```
+
+#### Login Response:
+- On successful authentication, returns a JWT token and basic user details.
+```json
+  {
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "username": "pavank",
+  "roles": "user"   //admin or user 
+}
+
+```
+
+
+
