@@ -2,8 +2,8 @@
 
 A Spring Boot starter boilerplate that includes **JWT Authentication**, **Spring Security**, **Role-Based Access Control**, **Spring Data JPA**, and a fully configured **environment-based setup** — ready to use out of the box.
 
-- ✅ This repo is for my own practice and helps me save time for auth setup and config. We are not forcing anyone to use it, but anyone can refer to it for knowledge purposes.  
-- ✅ If you want to use this, just clone it, connect it to your own Git repo, and start building new features on top of it.
+- ✅ This repository is created for my personal practice and to save time on authentication setup and configuration. It is open for anyone to explore and learn from.  
+- ✅ To use it, simply clone the repository, connect it to your own Git repository, and start adding new features.
 
 📂 **Public repository** — [Spring Boot Starter Project](https://github.com/pavanpanche/Spring-Boot-Starter-Project)
 
@@ -37,8 +37,8 @@ A Spring Boot starter boilerplate that includes **JWT Authentication**, **Spring
 
 
 ## 🔐 Authentication
-#### User Registration:
-#### Users can create an account using:
+### User Registration:
+### Users can create an account using:
 
 - Email
 
@@ -46,7 +46,7 @@ A Spring Boot starter boilerplate that includes **JWT Authentication**, **Spring
 
 - Password
 
-##### Example Request:
+### Example Request:
 ```json
   
 POST /api/auth/register
@@ -58,21 +58,21 @@ POST /api/auth/register
 
 ```
 
-##### Example Response 
+### Example Response 
 ```
 "Registraion Successfully"
 ```
 
 ---
 
-#### User Login:
+### User Login:
 - Users can log in using either:
 
 - Username + Password, or
 
 - Email + Password
 
-##### Example Requests:
+### Example Requests:
 ```json
 
 POST /api/auth/login
@@ -90,7 +90,7 @@ POST /api/auth/login
 
 ```
 
-#### Login Response:
+### Login Response:
 - On successful authentication, returns a JWT token and basic user details.
 ```json
   {
@@ -101,5 +101,36 @@ POST /api/auth/login
 
 ```
 
+---
 
+## 🔮 Future Implementations
+
+Planned features for upcoming versions:
+
+- **Advanced Role-Based Access Control**  
+  Roles such as:
+  - `User`
+  - `Admin`
+  - `Moderator`
+  - `Super Admin`
+
+- **Multiple Login Options**  
+  Login using:
+  - Email  
+  - Username  
+  - Mobile Number  
+
+- **Refresh Token Support**  
+  Secure token renewal without requiring full re-login.
+
+---
+
+  ## 📬 Contact
+
+- **Email:** [pavanpanche2@gmail.com](mailto:pavanpanche2@gmail.com)  
+- **LinkedIn:** [pavanpanche](https://www.linkedin.com/in/pavanpanche)
+
+
+
+---
 
